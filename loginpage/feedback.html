@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Bannari Amman Institute of Technology</title>
+    <link rel="icon" href="logo2.png">
+    <link rel="stylesheet" href="feedback.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Feedback Form</h1>
+    <p>We value your feedback! Please fill out the form below.</p>
+</header>
+
+<section class="feedback-form">
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+        <label for="rating">Rating:</label>
+        <select id="rating" name="rating" required>
+            <option value="">Choose a rating</option>
+            <option value="5">Excellent</option>
+            <option value="4">Good</option>
+            <option value="3">Average</option>
+            <option value="2">Poor</option>
+            <option value="1">Very Poor</option>
+        </select>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Your comments..." rows="5" required></textarea>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+</section>
+
+<footer>
+    <p>Thank you for helping us improve!</p>
+</footer>
+
+</body>
+</html>

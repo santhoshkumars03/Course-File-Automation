@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button with URL Example</title>
+    <style>
+        /* Optional: Add some styling for the button */
+        button {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <main>
+        <p>Click the button below to visit an example website:</p>
+        
+        <!-- Method 1: Using <a> tag with <button> -->
+        <a href="https://www.example.com" target="_blank">
+            <button>Visit Example Website (Method 1)</button>
+        </a>
+
+        <br><br>
+
+        <!-- Method 2: Using <button> with onclick -->
+        <button onclick="window.location.href='https://www.example.com';">Visit Example Website (Method 2)</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Website</p>
+    </footer>
+</body>
+</html>
